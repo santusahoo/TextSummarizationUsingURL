@@ -1,0 +1,13 @@
+streamlit
+python-dotenv
+validators
+langchain-groq
+langchain
+langchain-core
+langchain-text-splitters
+langchain-community
+langchain-huggingface
+faiss-cpu
+unstructured
+unstructured[url]
+sentence-transformers
