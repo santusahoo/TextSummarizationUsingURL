@@ -29,8 +29,7 @@ st.subheader("Summarize URL")
 st.markdown("Sample URL: https://medium.com/geekculture/git-and-github-for-beginner-data-scientists-602a3a5574d8")
 
 # Sidebar for model selection
-model_options = ["Gemma2-9b-It","mixtral-8x7b-32768",
-                "llama3-70b-8192"]
+model_options = ["Gemma2-9b-It","llama3-70b-8192"]
 selected_model = st.sidebar.selectbox("Select the Groq Model", model_options)
 language = st.sidebar.text_input("Preferred Language", placeholder="e.g., English, Spanish, French") or "English"
 
